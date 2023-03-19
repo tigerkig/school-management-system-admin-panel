@@ -1,0 +1,931 @@
+/* ///////////////////////////////////////////// */
+
+.card-full .nk-wg1 {
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+}
+
+.nk-wg1-block {
+     display: flex;
+     padding: 1.25rem;
+     align-items: flex-start;
+     flex-direction: column;
+}
+
+.nk-wg1-img {
+     width: 84px;
+     margin-right: 0;
+     margin-bottom: 1.5rem;
+     flex-shrink: 0;
+     text-align: center;
+     padding: .125rem;
+}
+
+.nk-wg1-text {
+     color: #8094ae;
+}
+
+.nk-wg1-action {
+     margin-top: auto;
+     border-top: 1px solid #e5e9f2;
+}
+
+.nk-wg1-action .link {
+     position: relative;
+     display: block;
+     line-height: 1.3;
+     padding: 1.25rem;
+     padding-right: 2.5rem;
+     white-space: inherit;
+}
+
+.nk-wg1-action .link:hover {
+     background-color: #f5f6fa;
+}
+
+.nk-wg1-action .link .icon {
+     position: absolute;
+     right: 1.25rem;
+     margin-right: -.25rem;
+     margin-top: -1px;
+}
+
+.nk-wg1-action .link-inline {
+     display: inline-block;
+     padding-right: .25rem;
+}
+
+.nk-wg1-action .link-inline .icon {
+     position: static;
+     padding-left: .25rem;
+     margin-right: 0;
+}
+
+@media(max-width: 576px) {
+     .mobile-block-lists {
+          display: block !important;
+     }
+
+     .full-width {
+          width: 100%;
+     }
+}
+
+@media (min-width: 576px) {
+     .nk-wg1-block {
+          padding: 1.5rem;
+     }
+
+     .nk-wg1-action .link {
+          padding: 1.5rem;
+          padding-right: 2.75rem;
+     }
+
+     .nk-wg1-action .link-inline {
+          padding-right: .25rem;
+     }
+}
+
+@media (min-width: 1200px) {
+     .nk-wg1-img {
+          margin-right: 1.5rem;
+          margin-bottom: 0;
+     }
+
+     .nk-wg1-block {
+          flex-direction: row;
+          align-items: center;
+          padding-top: 2rem;
+          padding-bottom: 2rem;
+     }
+}
+
+
+.nk-help {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+}
+
+.nk-help-img {
+     width: 120px;
+     margin-right: 0;
+     margin-bottom: 1.5rem;
+     flex-shrink: 0;
+     text-align: center;
+     padding: .125rem;
+}
+
+.text-center .nk-help-img {
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.nk-help-action {
+     flex-shrink: 0;
+     margin-top: 1.5rem;
+     width: 100%;
+     margin-bottom: 0.125rem;
+}
+
+@media (min-width: 768px) {
+     .nk-help {
+          flex-wrap: nowrap;
+     }
+
+     .nk-help-img {
+          margin-right: 1.5rem;
+          margin-bottom: 0;
+     }
+
+     .card-inner-lg .nk-help-img {
+          margin-left: -.5rem;
+     }
+
+     .nk-help-text {
+          flex-grow: 1;
+          padding: .5rem 1rem .5rem .5rem;
+     }
+
+     .nk-help-action {
+          width: auto;
+          margin-top: 0;
+          padding-left: 1.5rem;
+     }
+}
+
+.card-full .nk-help-plain {
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+}
+
+.nk-help-plain .nk-help-img {
+     margin-bottom: 1.25rem;
+}
+
+.nk-help-plain .nk-help-text {
+     padding: 0;
+}
+
+.nk-help-plain .nk-help-text:not(:last-child) {
+     margin-bottom: 1.5rem;
+}
+
+.nk-help-plain .nk-help-action {
+     margin-top: auto;
+     padding: 0;
+}
+
+/* /////////////////////////////////////////////// */
+
+.student-select-border {
+     border: 1px solid #00000057;
+     padding: 15px 15px 15px 25px;
+}
+
+.student-select-border:hover {
+     border-color: #000000ab;
+     background: #0000000a;
+     cursor: pointer;
+}
+
+.student-select-active {
+     border-color: #000000ab;
+     background: #0000000a;
+}
+
+.student-select-between {
+     display: flex;
+     justify-content: space-between;
+     padding: 0 !important;
+}
+
+.student-select-between em {
+     font-size: 25px;
+}
+
+.paddingTop {
+     padding-top: 20px;
+}
+
+tr.nk-tb-item {
+     cursor: pointer;
+}
+
+.flex-start {
+     justify-content: flex-start;
+}
+
+.individual-avatar {
+     margin: 0 0 0.75rem 0.75rem;
+}
+
+.sub-school-logo {
+     display: flex;
+     align-items: center;
+}
+
+.sub-school-logo h6 {
+     max-width: 150px;
+     line-height: 20px;
+}
+
+.dataTables_filter label {
+     width: 100%;
+}
+
+.pac-container {
+     z-index: 100000;
+}
+
+.enrollment-body {
+     height: 65vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.enrollment-body .nk-block-tools-opt {
+     display: flex;
+     justify-content: center;
+}
+
+.enrollment-button {
+     width: 100%;
+}
+
+.testFont h6,
+h5,
+p {
+     font-family: Montserrat, Helvetica, Arial, sans-serif !important;
+     color: #041e42 !important;
+}
+
+.testFont p {
+     font-weight: 500 !important;
+     color: #041e42 !important;
+}
+
+.custom-btn {
+     background-color: #041e42 !important;
+     color: white !important;
+     margin-top: 10px;
+}
+
+.enrollment-item {
+     text-align: center;
+}
+
+.enrollment-image {
+     display: flex;
+     justify-content: center;
+}
+
+.enrollment-image div {
+     background-color: #c7dcf0 !important;
+     border-color: #c7dcf0 !important;
+     height: 147px;
+     min-width: 147px;
+     width: 147px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.enrollment-image img {
+     height: 55%;
+     width: 55%;
+}
+
+.enrollment-item h4,
+p {
+     color: #041e42;
+}
+
+.enrollment-item h4 {
+     margin: 8px 0 14px 0;
+}
+
+.enrollment-item p {
+     margin-bottom: 32px;
+}
+
+.enrollment-continue {
+     margin-top: 15px;
+     float: right;
+}
+
+.studentDetail {
+     margin-top: 20px;
+}
+
+.sideContent {
+     position: relative;
+     display: block;
+     min-height: 100%;
+}
+
+.ApplicationMenu {
+     font-size: 1rem;
+     padding-top: 1.5em;
+     width: 100%;
+     max-width: 32em;
+     height: calc(100% - 75px);
+}
+
+.ApplicationMenu .status-menu {
+     position: relative;
+     margin: 0;
+     padding: 0;
+     color: #012040;
+     font-size: 1.6rem;
+     list-style: none;
+}
+
+.ApplicationMenu .status-menu:before {
+     content: "";
+     z-index: 1;
+     position: absolute;
+     top: 50%;
+     left: 26px;
+     width: 4px;
+     height: calc(100% - 3.5em);
+     background-color: #012040;
+     -webkit-transform: translateY(-50%);
+     transform: translateY(-50%);
+}
+
+.ApplicationMenu li {
+     font-weight: 500;
+}
+
+.ApplicationMenu .status-menu__item {
+     margin: 0;
+     border: none;
+     padding: 0;
+     font-weight: inherit;
+     color: inherit;
+     width: 100%;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     padding: 0.375em;
+     border-radius: 1.75em;
+     cursor: pointer;
+     background-color: transparent;
+     font-size: 16px;
+}
+
+.ApplicationMenu .status-menu__item--current {
+     background-color: #fff;
+     font-weight: 700;
+     -webkit-box-shadow: 0 1px 3px rgb(0 0 0 / 35%);
+     box-shadow: 0 1px 3px rgb(0 0 0 / 35%);
+     position: relative;
+     z-index: 2;
+}
+
+.ApplicationMenu .status-menu__icon {
+     min-width: 2.75em;
+     min-height: 2.75em;
+     border: 0.1875em solid;
+     border-radius: 100%;
+     background-color: #fff;
+     color: #012040;
+     font-weight: 700;
+     line-height: 2.375em;
+     text-align: center;
+     z-index: 2;
+}
+
+.ApplicationMenu .status-menu__item--current .status-menu__icon {
+     border-color: #012040;
+     background-color: #012040;
+     color: #fff;
+}
+
+.ApplicationMenu .status-menu__title {
+     margin-left: 0.75em;
+     white-space: nowrap;
+}
+
+.sr-only {
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     padding: 0;
+     overflow: hidden;
+     clip: rect(0, 0, 0, 0);
+     white-space: nowrap;
+     border: 0;
+}
+
+.ApplicationMenu .status-menu__item--completed .status-menu__icon {
+     border-color: #289b00;
+     background-color: #30b400;
+     color: #fff;
+}
+
+.required {
+     color: red;
+}
+
+.white-background {
+     background-color: #efefefa3;
+     padding: 12px;
+}
+
+.description {
+     font-size: 13px;
+}
+
+.upload_1,
+.upload_2,
+.upload_3,
+.upload_4,
+.upload_5,
+.upload_6,
+.upload_7,
+.learning,
+.medical,
+.risk,
+.sibling,
+.parents,
+.emergency,
+.additional,
+.declaration,
+.documents,
+.review,
+.addressForm,
+.intendedStartDate,
+.educationalProgram,
+.attendSchoolForm,
+.attendSchoolLocation,
+.attendSchoolDate,
+.attendSchoolLocation,
+.stuendHasAttended,
+.other_than_English,
+.OtherDisabilityDetails,
+.Other_adjustments_details,
+.ProvideDetails,
+.Describe_modifications_strategies,
+.r_Provide_details,
+.serious_behaviours_Provide_details,
+.school_staff_Provide_details,
+.knowledge_issues_form,
+.a_provide_details,
+.studentCountryBirth_child_arrive_date,
+.studentCountryBirth_child_radio,
+.australia_postal,
+.other_country_postal,
+.government_school_is_show,
+.m_medication_allergy_button,
+.student_anaphylactic_allergies_field,
+.student_medical_conditions_field,
+.student_non_severe_allergies_field,
+.C3_CurrentlyEmployed,
+.identification_upload,
+.C3_PreviouslyEmployed,
+.C2_CurrentlyEmployed,
+.C2_PreviouslyEmployed,
+.C_CurrentlyEmployed,
+.C_PreviouslyEmployed,
+.criminal_offence,
+.disciplinary_action,
+.allegations_misconduct,
+.psychological_emotional,
+.significant_vision,
+.information_regarding,
+.previous_employment,
+.employment_medically,
+
+div[class*="secondary_"],
+div[class*="qualification_"],
+div[class*="tertiary_"],
+div[class*="m_hospital_name_"],
+div[class*="m_non_severe_hospital_name_"],
+div[class*="m_docter_treating_allergy_"],
+div[class*="m_non_severe_docter_treating_allergy_"],
+div[class*="m_adrenaline_autoinjector_"],
+div[class*="m_non_severe_adrenaline_autoinjector_"],
+div[id*="m_addMedicationAllergy_parent_form_"],
+div[id*="m_addNonSevereMedicationAllergy_parent_form_"],
+div[class*="m_medication_allergy_button_"],
+div[class*="m_non_severe_medication_allergy_button_"],
+div[class*="doctor_australia_country_"],
+div[class*="doctor_other_country_"],
+div[class*="m_medical_condition_hospital_name_"],
+div[class*="m_treating_medical_condition_"],
+div[id*="m_addTakingMedicalCondition_parent_form_"],
+div[class*="m_another_medical_condition_button_"],
+div[class*="residential_address_input_"],
+div[class*="parent_contact_email_input_"],
+div[class*="parent_country_birth_"],
+div[class*="residential_address_australia_country_"],
+div[class*="residential_address_other_country_"],
+div[class*="student_residential_address_1_country_"],
+div[class*="residential_address_1_input_"],
+div[class*="residential_address_country_"],
+div[class*="student_residential_address_1_australia_country_"],
+div[class*="student_residential_address_1_other_country_"] {
+     display: none;
+}
+
+strong {
+     font-weight: bolder !important;
+}
+
+.educationalHeader {
+     border-bottom: 1px solid #b3b3b3;
+     display: flex;
+     justify-content: space-between;
+}
+
+.educationalHeader p {
+     margin: 0;
+}
+
+.educationalHeader a {
+     cursor: pointer;
+}
+
+.saveAndChange {
+     border-top: 1px solid #041e42;
+     display: flex;
+     justify-content: space-between;
+     padding: 0 !important;
+}
+
+.align-item-center {
+     display: flex;
+     align-items: center;
+     margin-left: 15px;
+}
+
+.align-item-center p {
+     font-size: 13px;
+     font-weight: 600;
+}
+
+.align-item-center a {
+     text-decoration: underline;
+}
+
+.m_medicalList li {
+     list-style: disc;
+}
+
+.borderLine {
+     border-bottom: 1px solid #041e4238;
+}
+
+.custom-form-ml {
+     margin-left: 37px;
+}
+
+.accordion p {
+     font-weight: 600;
+}
+
+.ApplicationMenu button:focus {
+     outline: none;
+}
+
+.startApplicationCss .form-label {
+     font-size: 1.1rem;
+}
+
+.accordion-style {
+     box-shadow: 0px 0px 5px 2px #8888885c;
+}
+
+.iconQuestion {
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.iconQuestion img {
+     max-width: 80px;
+     width: 100%;
+}
+
+.questionForm {
+     background-color: white;
+     box-shadow: 0px 0px 5px 2px #8888885c;
+}
+
+.white-background-support {
+     padding: 12px;
+}
+
+.white-background-support label {
+     font-size: 16px;
+     font-weight: 500;
+}
+
+#reviewForm .form-label {
+     font-size: 1rem !important;
+}
+
+#reviewForm .accordion p {
+     font-weight: 700;
+}
+
+.custom-link span {
+     text-decoration: underline;
+}
+
+.custom-link em {
+     padding-left: 0 !important;
+}
+
+.custom-dropdown .dropdown-menu {
+     min-width: 171px !important;
+}
+
+#eventLeftCalendar {
+     margin-top: 57px;
+}
+
+.p-l-r-0 {
+     padding-left: 0 !important;
+     padding-right: 0 !important;
+     overflow-y: auto;
+}
+
+.r-0 {
+     right: 0;
+}
+
+#accordion {
+     margin-top: 30px;
+     display: none;
+}
+
+.currentDate {
+     font-size: 20px;
+}
+
+#eventLeftCalendar .datepicker {
+     min-width: 100%;
+}
+
+#eventLeftCalendar .datepicker-inline {
+     width: 100%;
+}
+
+
+#style-4::-webkit-scrollbar-track {
+     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+     background-color: #F5F5F5;
+}
+
+#style-4::-webkit-scrollbar {
+     width: 3px;
+     background-color: #F5F5F5;
+}
+
+#style-4::-webkit-scrollbar-thumb {
+     border: 2px solid #55555582;
+}
+
+#style-4 {
+     height: 200px;
+}
+
+.w-100 {
+     width: 100%;
+     margin: 20px 0;
+     justify-content: center !important;
+}
+
+.calendar-checkbox .custom-control {
+     width: 100%;
+}
+
+.classesCard {
+     max-height: 856px;
+     overflow-y: auto;
+}
+
+.classesCard::-webkit-scrollbar-track {
+     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+     background-color: #F5F5F5;
+}
+
+.classesCard::-webkit-scrollbar {
+     width: 3px;
+     background-color: #F5F5F5;
+}
+
+.classesCard::-webkit-scrollbar-thumb {
+     border: 2px solid #55555582;
+}
+
+.nk-block-between-custom {
+     display: flex;
+     align-items: center;
+}
+
+.nk-block-between-custom a.btn-outline-light {
+     margin-left: 20px;
+}
+
+.text-end {
+     text-align: end;
+}
+
+.custom-nav .nav-item.active {
+     border: 1px solid black;
+     border-radius: 8px;
+     background-color: black;
+}
+
+.custom-nav .nav-item .nav-link {
+     padding: 0.5rem 1rem;
+}
+
+.custom-nav .nav-item {
+     padding: 0;
+     margin-right: 15px;
+}
+
+.custom-nav.nav-tabs .nav-link:after {
+     background: none !important;
+}
+
+.custom-nav.nav-tabs {
+     border-bottom: none !important;
+     margin-top: 0;
+}
+
+.custom-nav.nav-tabs .nav-item.active .nav-link {
+     color: white !important;
+}
+
+.classes_before {
+     display: none;
+}
+
+#classes_confirm {
+     display: none;
+}
+
+.classesCard .col-sm-6.col-lg-4.col-xxl-3 {
+     cursor: pointer;
+}
+
+#subjectBox,
+#teacherBox,
+#classesBox {
+     cursor: pointer;
+}
+
+.addSubjectButtonHeight {
+     height: 36.67px;
+}
+
+.addSubjectButtonHeight a {
+     display: none;
+}
+
+.classesDetailAccordion {
+     display: block !important;
+     background: none !important;
+}
+
+.classesDetailAccordion .accordion-head {
+     border: none !important;
+     border-radius: 15px;
+}
+
+.classesDetailAccordion .accordion-inner {
+     border: none !important;
+     background-color: #FFF;
+     border-radius: 15px;
+}
+
+.classesDetailAccordion .accordion-head {
+     margin-bottom: 10px;
+     background-color: #FFF;
+}
+
+.detailHeader {
+     display: flex;
+     justify-content: space-between;
+     padding-right: 50px;
+     align-items: center;
+}
+
+.detailHeader img {
+     width: 50px;
+     border-radius: 5px;
+}
+
+.detailHeader h6 {
+     margin: 0;
+}
+
+.custom-container {
+     width: 100%;
+     overflow: hidden;
+}
+
+.custom-pages {
+     display: flex;
+     width: 1200%;
+     box-sizing: border-box;
+}
+
+.custom-page {
+     width: 100%;
+     transition: all 1s;
+}
+
+.languageTesting {
+     display: none;
+}
+
+.w-4 {
+     width: 20%;
+}
+
+.vertical-middle {
+     vertical-align: middle !important;
+}
+
+.flex {
+     display: flex;
+}
+
+.underline {
+     text-decoration: underline;
+}
+
+.declaration-ul {
+     list-style: revert !important;
+}
+
+.declaration-ul li {
+     list-style: revert !important;
+}
+
+.fullWidth {
+     width: 100%;
+}
+
+.attendanceTable .table {
+     text-align: center;
+}
+
+.attendanceTable .table th {
+     padding: 7px 3px;
+     min-width: 20px;
+}
+
+.attendanceTable .table td {
+     padding: 3px;
+}
+
+.available {
+     background-color: #30b400;
+}
+
+.abscent {
+     background-color: rgb(161, 38, 38);
+}
+
+.attendanceTitle {
+     font-size: large;
+     font-weight: 700;
+}
+
+.attendanceTitle .availablePercent {
+     font-size: medium;
+     color: #30b400;
+}
+
+.personalInformation {
+     display: none;
+}
+
+.personalInformation .data-col-end {
+     width: 0;
+}
+
+.custom-avatar {
+     width: 100px !important;
+     height: 100px !important;
+}
+
+.min-w-300 {
+     min-width: 300px;
+}
